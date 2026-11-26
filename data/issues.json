@@ -1,0 +1,479 @@
+[
+  {
+    "kind": "recsys",
+    "date": "2026-11-19",
+    "title": "让生成式检索更贴合查询意图",
+    "intro": "本期从 IntentGR 出发，介绍如何把查询行为信号引入训练和解码，在提升排序质量的同时维持候选覆盖。",
+    "tags": [
+      "生成式检索",
+      "查询意图"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/daily-report-2026-11-19",
+    "reprint": true
+  },
+  {
+    "kind": "ai",
+    "date": "2026-11-19",
+    "title": "编程智能体的成功率与任务成本",
+    "intro": "本期关注编程智能体在不同长度研究任务上的完成率，梳理如何结合任务类型和单次任务成本评估实际可用性。",
+    "tags": [
+      "编程智能体",
+      "任务评估"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/ai-daily-2026-11-19",
+    "reprint": true
+  },
+  {
+    "kind": "recsys",
+    "date": "2026-11-18",
+    "title": "让搜索意图贯穿多模态召回与重排",
+    "intro": "本期解读小红书的 IntentFlow 如何用分层意图类别统一样本构建、召回和重排，让视觉相似与实际需求更好地对齐。",
+    "tags": [
+      "多模态搜索",
+      "意图建模"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/en/article/rec-daily-en-2026-11-18",
+    "reprint": false
+  },
+  {
+    "kind": "ai",
+    "date": "2026-11-18",
+    "title": "长会话智能体怎样算模型成本",
+    "intro": "本期关注 GPT-6.2 Astra 和 Sol 的定位，尤其是缓存读取价格变化对长时间运行任务的影响。",
+    "tags": [
+      "模型发布",
+      "缓存成本"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/en/article/ai-daily-en-2026-11-18",
+    "reprint": false
+  },
+  {
+    "date": "2026-11-17",
+    "title": "排序不确定性如何决定推理预算",
+    "intro": "这期的共同问题是如何把计算留给更难的请求。序列推荐可以先估计排序结果的稳定性，工具检索则可以用混合检索缩小候选范围。",
+    "tags": [
+      "序列推荐",
+      "推理效率",
+      "检索"
+    ],
+    "kind": "recsys",
+    "sourceUrl": "https://blog.recsys-frontier.com/en/article/rec-daily-en-2026-11-17",
+    "paperTitles": [
+      "RACE",
+      "阿里云 MCP Gateway",
+      "稀疏自编码器用于医疗检索"
+    ],
+    "reprint": true
+  },
+  {
+    "date": "2026-11-17",
+    "kind": "ai",
+    "title": "AI 智能体的成本与可靠性",
+    "intro": "本期聚焦怎样降低智能体的运行成本，以及如何评估多步骤工作流的可靠性，也收录了外部团队参与模型评估的动态。",
+    "tags": [
+      "智能体",
+      "模型评估"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/en/article/ai-daily-en-2026-11-17",
+    "paperTitles": [],
+    "reprint": true
+  },
+  {
+    "kind": "ai",
+    "date": "2026-11-16",
+    "title": "模型公司与上游算力伙伴的关系",
+    "intro": "本期通过日报所引的认购报道观察芯片与云厂商的合作关系，并记录 Qwen4-Max 的模型动态。",
+    "tags": [
+      "AI 产业",
+      "算力供应"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/ai-daily-2026-11-16",
+    "reprint": true
+  },
+  {
+    "date": "2026-11-14",
+    "title": "生成式召回怎样找回长尾商品",
+    "intro": "生成式召回的长尾表现受多处限制。ReSID 检查从编码到匹配的各个环节，TriGen 和 KuaiRecV2 则分别聚焦即时行为与随时间变化的候选池。",
+    "tags": [
+      "生成式推荐",
+      "长尾召回",
+      "持续学习"
+    ],
+    "kind": "recsys",
+    "sourceUrl": "https://blog.recsys-frontier.com/en/article/rec-daily-en-2026-11-14",
+    "paperTitles": [
+      "ReSID",
+      "TriGen",
+      "KuaiRecV2"
+    ],
+    "reprint": false
+  },
+  {
+    "date": "2026-11-14",
+    "kind": "ai",
+    "title": "机器人模型与智能体运行环境",
+    "intro": "本期讨论通用模型与专用机器人模型的两条路线，并关注智能体会话冷启动、推理成本和工具接入。",
+    "tags": [
+      "机器人",
+      "智能体"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/en/article/ai-daily-en-2026-11-14",
+    "paperTitles": [],
+    "reprint": true
+  },
+  {
+    "kind": "ai",
+    "date": "2026-11-13",
+    "title": "用决策模型做智能体路由",
+    "intro": "本期对照面向日常编程的 Gemini 4 Hydrogen 与为有限选项打分的 Gemini Decision 1，关注两者适用的任务形态。",
+    "tags": [
+      "决策模型",
+      "智能体路由"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/en/article/ai-daily-en-2026-11-13",
+    "reprint": false
+  },
+  {
+    "kind": "recsys",
+    "date": "2026-11-12",
+    "title": "用小规模实验预估全规模推荐效果",
+    "intro": "本期关注特征调整下的缩放规律，讨论怎样利用小模型实验及置信区间，筛选值得投入全量算力的变更。",
+    "tags": [
+      "缩放规律",
+      "A/B 实验"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/daily-report-2026-11-12",
+    "reprint": true
+  },
+  {
+    "kind": "ai",
+    "date": "2026-11-12",
+    "title": "Claude 的多芯片部署与算力采购",
+    "intro": "本期梳理日报引述的路演材料，关注 Claude 在不同加速器上的运行情况，以及算力采购与企业扩张之间的关系。",
+    "tags": [
+      "异构算力",
+      "模型部署"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/ai-daily-2026-11-12",
+    "reprint": true
+  },
+  {
+    "kind": "recsys",
+    "date": "2026-11-11",
+    "title": "用 KV 缓存连接不同推荐阶段",
+    "intro": "本期解读推荐基础模型如何通过共享缓存跨阶段与场景迁移信息，并关注线上试验对成本和业务收益的衡量。",
+    "tags": [
+      "推荐基础模型",
+      "KV 缓存"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/daily-report-2026-11-11",
+    "reprint": true
+  },
+  {
+    "kind": "ai",
+    "date": "2026-11-11",
+    "title": "长驻智能体的容器运行时",
+    "intro": "本期关注 OpenShell 与 Kubernetes 上的 Agent Substrate，讨论怎样保留会话环境，同时在任务空闲时释放计算资源。",
+    "tags": [
+      "智能体运行时",
+      "Kubernetes"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/ai-daily-2026-11-11",
+    "reprint": true
+  },
+  {
+    "date": "2026-11-10",
+    "title": "生成式推荐的训练信号与线上成本",
+    "intro": "三项工作分别回答推理信号从哪来、商品 ID 如何生成，以及什么请求值得调用更大的模型。",
+    "tags": [
+      "生成式推荐",
+      "电商推荐",
+      "重排"
+    ],
+    "kind": "recsys",
+    "sourceUrl": "https://blog.recsys-frontier.com/en/article/rec-daily-en-2026-11-10",
+    "paperTitles": [
+      "PHiT",
+      "RedMall",
+      "CascadeRec"
+    ],
+    "reprint": true
+  },
+  {
+    "date": "2026-11-10",
+    "kind": "ai",
+    "title": "推理预算、长上下文与专用加速器",
+    "intro": "本期对比模型的不同推理档位，并讨论面向训练和长上下文的加速器，以及压缩会话历史对解码速度的影响。",
+    "tags": [
+      "推理效率",
+      "AI 芯片"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/en/article/ai-daily-en-2026-11-10",
+    "paperTitles": [],
+    "reprint": true
+  },
+  {
+    "kind": "ai",
+    "date": "2026-11-09",
+    "title": "生成媒体平台与算力供应动态",
+    "intro": "本期观察生成媒体推理平台的融资，以及算力供应商和大客户的变化如何进入行业讨论。",
+    "tags": [
+      "生成媒体",
+      "AI 产业"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/en/article/ai-daily-en-2026-11-09",
+    "reprint": false
+  },
+  {
+    "kind": "ai",
+    "date": "2026-11-08",
+    "title": "多模态 MoE 的分阶段开放",
+    "intro": "本期以 Inkling 2 Small 为例，关注混合专家模型的激活规模、可变推理强度，以及权重开放前的外部测试。",
+    "tags": [
+      "混合专家",
+      "开放权重"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/ai-daily-2026-11-08",
+    "reprint": true
+  },
+  {
+    "kind": "recsys",
+    "date": "2026-11-07",
+    "title": "用曝光与点击的因果链评估重排",
+    "intro": "本期关注淘宝的 ICE 评估器如何显式刻画曝光与点击之间的关系，以及日报整理的线上实验。",
+    "tags": [
+      "重排",
+      "因果评估"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/daily-report-2026-11-07",
+    "reprint": true
+  },
+  {
+    "kind": "ai",
+    "date": "2026-11-07",
+    "title": "让语言模型直接修改神经网络权重",
+    "intro": "本期关注权重空间编程实验，讨论语言模型直接选择并改写少量参数时，研究团队如何衡量下游任务变化。",
+    "tags": [
+      "权重编辑",
+      "模型研究"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/ai-daily-2026-11-07",
+    "reprint": true
+  },
+  {
+    "kind": "recsys",
+    "date": "2026-11-06",
+    "title": "用共享原型保留连续物品表示",
+    "intro": "本期解读 CAP-Mix 如何将共享原型与物品专属向量联合训练，在保留连续内容信息的同时共享跨物品语义结构。",
+    "tags": [
+      "生成式召回",
+      "物品表示"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/daily-report-2026-11-06",
+    "reprint": true
+  },
+  {
+    "kind": "ai",
+    "date": "2026-11-06",
+    "title": "Git 怎样支撑大量智能体并发写入",
+    "intro": "本期关注 GitHub 的 Project Rubicon，介绍以不可变 Git 对象为基础拆分存储与服务、减少并发写入协调的设计。",
+    "tags": [
+      "Git",
+      "并发系统"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/ai-daily-2026-11-06",
+    "reprint": true
+  },
+  {
+    "kind": "recsys",
+    "date": "2026-11-05",
+    "title": "用同一个生成模型处理重排和混排",
+    "intro": "本期关注 OneTrans-GSR 怎样在统一生成策略中组合商品卡、视频等不同来源，并看实验如何衡量排序表现与延迟。",
+    "tags": [
+      "混排",
+      "生成式推荐"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/daily-report-2026-11-05",
+    "reprint": true
+  },
+  {
+    "kind": "ai",
+    "date": "2026-11-05",
+    "title": "数据中心选址与开放模型部署",
+    "intro": "本期观察地方审批怎样影响数据中心扩张，同时记录 Kimi K3.1 Pro 权重开放与推理框架适配。",
+    "tags": [
+      "数据中心",
+      "模型部署"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/ai-daily-2026-11-05",
+    "reprint": true
+  },
+  {
+    "kind": "recsys",
+    "date": "2026-11-04",
+    "title": "给购物智能体训练生成式奖励模型",
+    "intro": "本期解读 E-GenRM 如何用行为轨迹、评估准则与个性化负样本，让奖励更贴近购物场景中的隐含偏好。",
+    "tags": [
+      "购物智能体",
+      "奖励模型"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/daily-report-2026-11-04",
+    "reprint": true
+  },
+  {
+    "kind": "ai",
+    "date": "2026-11-04",
+    "title": "大规模广告排序特征的独立发布",
+    "intro": "本期关注 Meta 的 F3 Lightning 如何把特征发布和图执行拆开，让单个特征独立上线，同时保留共享计算。",
+    "tags": [
+      "特征平台",
+      "广告排序"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/ai-daily-2026-11-04",
+    "reprint": true
+  },
+  {
+    "kind": "recsys",
+    "date": "2026-11-03",
+    "title": "用离散流匹配模拟浏览行为",
+    "intro": "本期关注 BrowseFlow 如何把浏览范围和点击等稀疏事件分开建模，用于评估同一推荐流下用户行为的多样性。",
+    "tags": [
+      "用户模拟",
+      "离散流匹配"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/daily-report-2026-11-03",
+    "reprint": true
+  },
+  {
+    "kind": "ai",
+    "date": "2026-11-03",
+    "title": "开放权重编程模型的 Token 效率",
+    "intro": "本期关注 Mistral Large 4 的多模态与编程表现，并从任务完成率和用量两方面看编程模型的效率。",
+    "tags": [
+      "开放权重",
+      "编程模型"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/ai-daily-2026-11-03",
+    "reprint": true
+  },
+  {
+    "kind": "ai",
+    "date": "2026-11-02",
+    "title": "模型公司的算力投入与盈利结构",
+    "intro": "本期阅读日报所引的公开文件与基础设施披露，关注营收增长、云与芯片的长期承诺，以及集群扩张如何相互影响。",
+    "tags": [
+      "算力基础设施",
+      "AI 产业"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/en/article/ai-daily-en-2026-11-02",
+    "reprint": false
+  },
+  {
+    "kind": "ai",
+    "date": "2026-11-01",
+    "title": "长任务智能体怎样交接工作",
+    "intro": "本期从跨天运行的智能体案例出发，讨论持久记忆、模型路由和人类决策交接，并记录编程智能体的实践。",
+    "tags": [
+      "长程智能体",
+      "持久记忆"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/ai-daily-2026-11-01",
+    "reprint": true
+  },
+  {
+    "kind": "ai",
+    "date": "2026-10-31",
+    "title": "AI 资本动态与形式化验证",
+    "intro": "本期并列回顾模型公司的融资动态，以及研究团队尝试用 Lean 验证复杂性理论结果的进展。",
+    "tags": [
+      "AI 产业",
+      "形式化验证"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/ai-daily-2026-10-31",
+    "reprint": true
+  },
+  {
+    "kind": "ai",
+    "date": "2026-10-30",
+    "title": "长程智能体的多层监控",
+    "intro": "本期梳理从低成本异常检测、模型评审到自动调查的监控架构，以及怎样用历史事件回放评估检测效果。",
+    "tags": [
+      "智能体监控",
+      "模型评估"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/ai-daily-2026-10-30",
+    "reprint": true
+  },
+  {
+    "kind": "recsys",
+    "date": "2026-10-29",
+    "title": "统一图像与指令的商品检索",
+    "intro": "本期解读 PailitaoMMSearch 如何将图像与自由文本指令映射到商品语义 ID，并介绍其训练数据与线上评估。",
+    "tags": [
+      "多模态检索",
+      "语义 ID"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/daily-report-2026-10-29",
+    "reprint": true
+  },
+  {
+    "kind": "ai",
+    "date": "2026-10-29",
+    "title": "编程智能体进入代码提交流程",
+    "intro": "本期解读 GitHub 关于智能体发起拉取请求的统计，同时整理 Gemini 4 Carbon 的发布与开放方式。",
+    "tags": [
+      "编程智能体",
+      "开发平台"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/ai-daily-2026-10-29",
+    "reprint": true
+  },
+  {
+    "kind": "recsys",
+    "date": "2026-10-28",
+    "title": "压缩生成式召回的行为序列",
+    "intro": "本期关注 PinGER 怎样用非对称注意力压缩历史商品的表示，使有限上下文能容纳更多用户行为。",
+    "tags": [
+      "生成式召回",
+      "行为序列"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/daily-report-2026-10-28",
+    "reprint": true
+  },
+  {
+    "kind": "ai",
+    "date": "2026-10-28",
+    "title": "可交互世界模型与算力投资",
+    "intro": "本期关注能用自然语言修改场景的 Genie 4，以及芯片供应商通过股权投资参与大规模算力建设的报道。",
+    "tags": [
+      "世界模型",
+      "算力基础设施"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/ai-daily-2026-10-28",
+    "reprint": true
+  },
+  {
+    "kind": "recsys",
+    "date": "2026-10-27",
+    "title": "从商品交易推断容器级成交",
+    "intro": "本期解读 HGE 如何将直播间或门店的排序粒度与商品交易粒度对齐，并通过分解成交目标减小监督噪声。",
+    "tags": [
+      "电商推荐",
+      "成交预估"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/daily-report-2026-10-27",
+    "reprint": true
+  },
+  {
+    "kind": "ai",
+    "date": "2026-10-27",
+    "title": "AI 科研成果的三种发布方式",
+    "intro": "本期对照数学、复杂性理论和物理三个案例，讨论如何发布模型生成的研究结果并交由专家验证，也关注计算机操作模型的成本。",
+    "tags": [
+      "AI 科研",
+      "成果验证"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/ai-daily-2026-10-27",
+    "reprint": true
+  }
+]
