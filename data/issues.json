@@ -1,6 +1,30 @@
 [
   {
     "kind": "recsys",
+    "date": "2026-11-20",
+    "title": "用智能体编排推荐链路",
+    "intro": "本期解读淘宝 MARS 如何联动召回配额、模型选择和重排参数，以及异步决策怎样避免增加线上请求的等待时间。",
+    "tags": [
+      "推荐系统",
+      "智能体编排"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/daily-report-2026-11-20",
+    "reprint": true
+  },
+  {
+    "kind": "ai",
+    "date": "2026-11-20",
+    "title": "推理容量波动时如何调度请求",
+    "intro": "本期从 Gemini 4 Neon 的发布谈到推理成本，并选读 Cap-and-Track，观察调度器怎样根据后端容量变化分配请求。",
+    "tags": [
+      "模型发布",
+      "推理调度"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/ai-daily-2026-11-20",
+    "reprint": true
+  },
+  {
+    "kind": "recsys",
     "date": "2026-11-19",
     "title": "让生成式检索更贴合查询意图",
     "intro": "本期从 IntentGR 出发，介绍如何把查询行为信号引入训练和解码，在提升排序质量的同时维持候选覆盖。",
