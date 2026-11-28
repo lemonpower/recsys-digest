@@ -1,6 +1,30 @@
 [
   {
     "kind": "recsys",
+    "date": "2026-11-21",
+    "title": "让智能体协同优化多模型特征",
+    "intro": "本期关注 Meta 如何用智能体提出并筛选特征，再通过可重复的实验衡量候选特征对模型表现和计算成本的影响。",
+    "tags": [
+      "特征工程",
+      "推荐系统"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/daily-report-2026-11-21",
+    "reprint": true
+  },
+  {
+    "kind": "ai",
+    "date": "2026-11-21",
+    "title": "如何评估对抗性蒸馏的防护效果",
+    "intro": "本期梳理模型输出被用于训练其他模型时可能带来的安全风险，关注对抗评估、模型训练和服务端措施如何配合。",
+    "tags": [
+      "模型安全",
+      "安全评估"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/ai-daily-2026-11-21",
+    "reprint": true
+  },
+  {
+    "kind": "recsys",
     "date": "2026-11-20",
     "title": "用智能体编排推荐链路",
     "intro": "本期解读淘宝 MARS 如何联动召回配额、模型选择和重排参数，以及异步决策怎样避免增加线上请求的等待时间。",
@@ -56,8 +80,8 @@
       "多模态搜索",
       "意图建模"
     ],
-    "sourceUrl": "https://blog.recsys-frontier.com/en/article/rec-daily-en-2026-11-18",
-    "reprint": false
+    "sourceUrl": "https://blog.recsys-frontier.com/article/daily-report-2026-11-18",
+    "reprint": true
   },
   {
     "kind": "ai",
@@ -115,6 +139,18 @@
     "reprint": true
   },
   {
+    "kind": "ai",
+    "date": "2026-11-15",
+    "title": "开放权重生态的算力与审计",
+    "intro": "本期讨论开放权重模型对算力供应的依赖，以及研究者如何尝试从模型权重的统计特征推断训练过程。",
+    "tags": [
+      "开放权重",
+      "模型审计"
+    ],
+    "sourceUrl": "https://blog.recsys-frontier.com/article/ai-daily-2026-11-15",
+    "reprint": true
+  },
+  {
     "date": "2026-11-14",
     "title": "生成式召回怎样找回长尾商品",
     "intro": "生成式召回的长尾表现受多处限制。ReSID 检查从编码到匹配的各个环节，TriGen 和 KuaiRecV2 则分别聚焦即时行为与随时间变化的候选池。",
@@ -124,13 +160,13 @@
       "持续学习"
     ],
     "kind": "recsys",
-    "sourceUrl": "https://blog.recsys-frontier.com/en/article/rec-daily-en-2026-11-14",
+    "sourceUrl": "https://blog.recsys-frontier.com/article/daily-report-2026-11-14",
     "paperTitles": [
       "ReSID",
       "TriGen",
       "KuaiRecV2"
     ],
-    "reprint": false
+    "reprint": true
   },
   {
     "date": "2026-11-14",
@@ -154,8 +190,8 @@
       "决策模型",
       "智能体路由"
     ],
-    "sourceUrl": "https://blog.recsys-frontier.com/en/article/ai-daily-en-2026-11-13",
-    "reprint": false
+    "sourceUrl": "https://blog.recsys-frontier.com/article/ai-daily-2026-11-13",
+    "reprint": true
   },
   {
     "kind": "recsys",
@@ -245,8 +281,8 @@
       "生成媒体",
       "AI 产业"
     ],
-    "sourceUrl": "https://blog.recsys-frontier.com/en/article/ai-daily-en-2026-11-09",
-    "reprint": false
+    "sourceUrl": "https://blog.recsys-frontier.com/article/ai-daily-2026-11-09",
+    "reprint": true
   },
   {
     "kind": "ai",
@@ -389,8 +425,8 @@
       "算力基础设施",
       "AI 产业"
     ],
-    "sourceUrl": "https://blog.recsys-frontier.com/en/article/ai-daily-en-2026-11-02",
-    "reprint": false
+    "sourceUrl": "https://blog.recsys-frontier.com/article/ai-daily-2026-11-02",
+    "reprint": true
   },
   {
     "kind": "ai",
